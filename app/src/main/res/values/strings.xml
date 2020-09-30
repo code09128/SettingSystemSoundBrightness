@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Setting</string>
+
+    <!-- sys info -->
+    <string name="dialog_sysinfo_preferences">System Information</string>
+    <string name="title_preference_sysinfo_prd">Product</string>
+    <string name="summary_preference_sysinfo_prd">The product or hardware information</string>
+    <string name="title_preference_sysinfo_prd_ver">Product Version</string>
+    <string name="summary_preference_sysinfo_prd_ver">The product version</string>
+    <string name="title_preference_sysinfo_mfg">Manufacture</string>
+    <string name="summary_preference_sysinfo_mfg">The manufacture related information</string>
+    <string name="title_preference_sysinfo_sn">Serial No.</string>
+    <string name="summary_preference_sysinfo_sn">The device serial number</string>
+    <string name="title_preference_sysinfo_ldr_ver">Boot Loader (u-boot) Version</string>
+    <string name="summary_preference_sysinfo_ldr_ver">The boot loader (u-boot) version</string>
+    <string name="title_preference_sysinfo_rk_st">Root Key Status (locked or unlocked)</string>
+    <string name="summary_preference_sysinfo_rk_st">The system root key status (locked orunlocked)
+    </string>
+    <string name="title_preference_sysinfo_secure_st">Secure system Status (enabled or disabled)
+    </string>
+    <string name="summary_preference_sysinfo_secure_st">Indicates if the secure system is enabled
+    </string>
+    <string name="title_preference_sysinfo_wifi_mac">Wifi MAC Address</string>
+    <string name="summary_preference_sysinfo_wifi_mac">Unknown</string>
+    <string name="title_preference_sysinfo_eth_mac">Ethernet MAC Address</string>
+    <string name="summary_preference_sysinfo_eth_mac">Unknown</string>
+    <string name="title_preference_sysinfo_saio_lib">Saio Libraries Version</string>
+    <string name="summary_preference_sysinfo_saio_lib">Fail to get version information</string>
+    <string name="title_preference_sysinfo_uboot_env">U-Boot Env Version</string>
+    <string name="summary_preference_sysinfo_uboot_env">U-Boot Env not support</string>
+
+    <!-- update -->
+    <string name="dialog_based_preferences">Saio Update</string>
+    <!-- update - cert -->
+    <string name="dialog_cert_preferences">Certificate</string>
+    <string name="title_edittext_preference_cert">SPK / SCAT</string>
+    <string name="summary_edittext_preference_cert">Set certificate path to parse info</string>
+    <string name="dialog_title_edittext_preference_cert">Enter the certificate path (spk / scat)
+    </string>
+    <string name="default_value_edittext_preference_cert">/storage/udisk/Download/</string>
+    <!-- update - install -->
+    <string name="dialog_install_preferences">Install</string>
+    <string name="title_edittext_preference_install_srcdir">SrcDir</string>
+    <string name="summary_edittext_preference_install_srcdir">Set srcdir path to install</string>
+    <string name="dialog_title_edittext_preference_install_srcdir">Enter the srcdir path</string>
+    <string name="default_value_edittext_preference_install_srcdir">/storage/udisk/Download/
+    </string>
+    <string name="title_edittext_preference_install_cert">SPK / SCAT</string>
+    <string name="summary_edittext_preference_install_cert">Set certificate path to install</string>
+    <string name="dialog_title_edittext_preference_install_cert">Enter the certificate path (spk /scat)
+    </string>
+    <string name="default_value_edittext_preference_install_cert">/storage/udisk/Download/</string>
+    <string name="title_preference_install_progress">Tap here to install</string>
+    <string name="summary_preference_install_progress">Install: 0%</string>
+    <!-- update - installed -->
+    <string name="dialog_installed_preferences">Installed Public Keys</string>
+    <string name="title_preference_installed">getPubkeyNum()</string>
+    <string name="summary_preference_installed">0</string>
+    <string name="title_list_preference_installed">Show info of installed public key</string>
+    <string name="summary_list_preference_installed">Select installed public key</string>
+    <string name="dialog_title_list_preference_installed">Choose installed public key</string>
+    <string name="default_value_list_preference_installed">1</string>
+    <string name="title_preference_cert_info">Certificate info</string>
+    <!-- update - tamperStatus -->
+    <string name="dialog_tamper_preferences">Tamper Status</string>
+    <string name="title_preference_tamper">tamperStatus()</string>
+    <string name="summary_preference_tamper">N/A</string>
+    <!-- update - verifyPassword -->
+    <string name="dialog_passwd_preferences">Verify Password</string>
+    <string name="title_edittext_preference_passwd">Tap to enter password</string>
+    <string name="summary_edittext_preference_passwd">N/A</string>
+    <string name="dialog_title_edittext_preference_passwd">Enter the password</string>
+    <string name="default_value_edittext_preference_passwd"></string>
+    <!-- update - changePassword -->
+    <string name="dialog_changepasswd_preferences">Change Password</string>
+    <string name="title_edittext_preference_changepasswd_old">Old Password</string>
+    <string name="summary_edittext_preference_changepasswd_old">N/A</string>
+    <string name="dialog_title_edittext_preference_changepasswd_old">Enter old password</string>
+    <string name="default_value_edittext_preference_changepasswd_old"></string>
+    <string name="title_edittext_preference_changepasswd_new">New Password</string>
+    <string name="summary_edittext_preference_changepasswd_new">N/A</string>
+    <string name="dialog_title_edittext_preference_changepasswd_new">Enter new password</string>
+    <string name="default_value_edittext_preference_changepasswd_new"></string>
+    <string name="title_preference_changepasswd_progress">Tap to change password</string>
+    <string name="summary_preference_changepasswd_progress">N/A</string>
+
+    <string name="sysinfo_test">System Information Test</string>
+
+    <string name="refund">退貨</string>
+    <string name="check_out">結帳</string>
+</resources>
